@@ -22,24 +22,14 @@ export default function ReviewPage() {
   }, []);
 
   return (
-    <div className="main">
-      <div class="outer">
-        <div class="inner"></div>
+    <div className="reviews">
+      <div className="reviews__header">
+        <h1>Reviews</h1>
       </div>
-
-      <div className="reviews">
-        <div className="reviews__header">
-          <h1>Reviews</h1>
-        </div>
-        <div className="reviews__container">
-          {reviews?.map((review) => (
-            <ReviewCard key={review?.id} review={review} />
-          ))}
-        </div>
-      </div>
-
-      <div class="outer1">
-        <div class="inner1"></div>
+      <div className="reviews__container">
+        {reviews?.map((review) => (
+          <ReviewCard key={review?.id} review={review} />
+        ))}
       </div>
     </div>
   );

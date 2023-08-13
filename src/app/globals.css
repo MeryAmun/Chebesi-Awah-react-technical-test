@@ -1,89 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter&family=Space+Grotesk&display=swap');
-*{
-   
+
+* {
     overflow-x: hidden;
 }
-.main {
-    background: rgba(255, 241, 232, 1);
-    height: auto;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 20px;
-    width: 100%;
 
-}
-
-.inner {
-    width: 80px;
-    height: 100%;
-    background-color: #bb4d83;
-    border-radius: 50%;
-    filter: blur(10px);
-    margin: 0 auto;
-    transform: rotate(-180deg);
-}
-
-.outer {
-    align-self: flex-end;
-    width: 150px;
-    height: 150px;
-    background-color: #ec8e6a;
-    border-radius: 50%;
-    filter: blur(15px);
-    transform: translateX(0px);
-}
-
-.inner1 {
-    width: 80px;
-    height: 100%;
-    background-color: #bb4d83;
-    border-radius: 50%;
-    filter: blur(10px);
-    margin: 0 auto;
-    transform: rotate(-180deg);
-}
-
-.outer1 {
-    width: 150px;
-    height: 150px;
-    background-color: #ec8e6a;
-    border-radius: 50%;
-    filter: blur(15px);
-    transform: translateX(-20px);
-    align-self: flex-start;
-}
-
-.reviews__leftAccent {
-    align-self: flex-end;
-    width: 415px;
-    height: 416px;
-    top: 661px;
-    left: 0;
-    transform: rotate(-88.35 deg);
-    position: absolute;
-
-}
-
-.reviews__rightAccent {
-    width: 415px;
-    height: 416px;
-    top: 69px;
-    left: 1769px;
-    rotate: -88.35 deg;
-    position: absolute;
-
-    align-self: flex-start;
-
-}
 
 .reviews {
+    background-image:
+        linear-gradient(to bottom left, rgba(236, 135, 78, 0.2), rgba(236, 135, 78, 0.2), rgba(236, 135, 78, 0.2), rgba(168, 72, 154, 0.4), rgb(238, 68, 51)),
+        linear-gradient(to bottom, rgba(236, 135, 78, 0.2), rgba(236, 135, 78, 0.2)),
+        linear-gradient(to top right, rgba(236, 135, 78, 0.2), rgba(236, 135, 78, 0.2), rgba(236, 135, 78, 0.2), rgba(238, 68, 51, 0.4), rgb(168, 72, 154));
+    background-size: 33.33% 100%;
+    background-position: 0 0, 50% 0, 100% 0;
+    background-repeat: no-repeat repeat;
+
+
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
+    width: auto;
+    padding: 40px 20px;
 }
 
 .reviews__header {
@@ -111,7 +50,7 @@
 .review__card {
     background-color: rgba(255, 255, 255, 1);
     border: 2px solid #111111;
-    width: 25%;
+    width: 20%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -120,6 +59,7 @@
     padding: 20px;
     margin: 10px;
 }
+
 
 .review__cardRating img {
     margin: 0 2px;
@@ -137,9 +77,9 @@
 
 .review__cardFooter {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 177px;
+    width: 100%;
     height: 49px;
 }
 
@@ -149,10 +89,15 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 149px;
-    height: 100%;
-    margin-left: 10px;
+    margin-left: 15px;
+
 }
 
+/* .review__cardImage{
+    width: 43px;
+    height: 43px;
+  
+} */
 .review__cardImage img {
     width: 43px;
     height: 43px;
