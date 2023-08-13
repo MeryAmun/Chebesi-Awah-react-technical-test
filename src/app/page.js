@@ -1,10 +1,40 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+'use client'
+import { useEffect,useState } from 'react'
+import ReviewCard from './components/ReviewCard'
+
 
 export default function ReviewPage() {
+const [reviews, setReviews] = useState();
+
+    useEffect(() => {
+      const fetchData = async () => {  
+      await fetch("data.json", {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+      }).then((response) => (response?.json()
+      )).then((data) => {
+        setReviews(data?.reviews)
+      })
+      }
+      fetchData()
+        }, [])
+
   return (
-    <>
-        Hello World
-    </>
+     <div className="main">
+      <div className='reviews'>
+ <div className="reviews__header">
+   <h1>Reviews</h1>
+   </div>
+   <div className="reviews__container">
+   {
+    reviews?.map((review) => (
+      <ReviewCard key={review?.id} review={review}/>
+    ))
+   }
+   </div>
+</div>
+     </div>
   )
 }

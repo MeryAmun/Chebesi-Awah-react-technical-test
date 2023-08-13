@@ -1,0 +1,52 @@
+{
+    "reviews":[
+        {
+            "id":1,
+            "name":"Brittan Wheeler",
+            "comment":"“You made it so simple.”",
+            "image":"/images/Brittan_Wheeler.png",
+            "position":"Consultant",
+            "rating":["/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Empty_Star.svg"]
+        },
+        {
+            "id":2,
+            "name":"Alexa Popen",
+            "comment":"“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change & it is a good channel for us.”",
+            "image":"/images/Alexa_Popen.png",
+            "position":"CEO",
+            "rating":["/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Empty_Star.svg","/icons/Empty_Star.svg"]
+        },
+        {
+            "id":3,
+            "name":"Leslie Alexander",
+            "comment":"“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change & it is a good channel for us.”",
+            "image":"/images/Leslie_Alexander.png",
+            "position":"Founder",
+            "rating":["/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg"]
+        },
+        {
+            "id":4,
+            "name":"Leslie Alexander",
+            "comment":"“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change & it is a good channel for us.”",
+            "image":"/images/Leslie_Alexander.png",
+            "position":"Founder",
+            "rating":["/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg"]
+        },
+        {
+            "id":5,
+            "name":"Leslie Alexander",
+            "comment":"“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change & it is a good channel for us.”",
+            "image":"/images/Leslie_Alexander.png",
+            "position":"Founder",
+            "rating":["/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg"]
+        },
+        {
+            "id":6,
+            "name":"Leslie Alexander",
+            "comment":"“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change & it is a good channel for us.”",
+            "image":"/images/Leslie_Alexander.png",
+            "position":"Founder",
+            "rating":["/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg","/icons/Full_Star.svg"]
+        }
+    ]
+}
