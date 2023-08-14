@@ -23,6 +23,8 @@ export default function ReviewPage() {
 
   return (
     <div className="reviews">
+      <div className="left__gradient"/>
+      <div className="right__gradient"/>
       <div className="reviews__header">
         <h1>Reviews</h1>
       </div>
